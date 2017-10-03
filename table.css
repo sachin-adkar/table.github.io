@@ -1,0 +1,12 @@
+.tab {
+  float:right;
+}
+#btn{
+  margin:10px;
+  width:70px;
+  background:#2066D6;
+  border:none;
+  color:white;
+  height:30px;
+  font-size:15px;
+}
