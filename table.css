@@ -1,12 +1,47 @@
 .tab {
   float:right;
 }
-#btn{
-  margin:10px;
-  width:70px;
-  background:#2066D6;
-  border:none;
-  color:white;
-  height:30px;
-  font-size:15px;
+button{
+  box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+  background-color: #2185d0;
+  color: #fff;
+  text-shadow: none;
+  background-image: none;
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em .78571429em;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .28571429rem;
+  -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+  transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+button:disabled{
+  cursor: default;
+  opacity: .45!important;
+  background-image: none!important;
+  box-shadow: none!important;
+  pointer-events: none!important;
+}
+
+table{
+  width:100%;
+}
+
+tr{
+  text-align: center;
+}
+
+tr th{
+  width:50%;
 }
