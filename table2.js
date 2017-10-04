@@ -44,7 +44,6 @@ function RemoveRow() {
   if (document.getElementsByTagName("tbody")[0].children.length > 1) {
     this.parentElement.parentElement.remove();
     if (document.getElementsByTagName("tbody")[0].children.length == 1) {
-      console.log(document.getElementsByClassName("remove-button")[0].disabled);
       document.getElementsByClassName("remove-button")[0].disabled = true;
     }
   }
